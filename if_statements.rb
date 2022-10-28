@@ -67,17 +67,36 @@ end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 1
-has_sauce = true
 
-if cups_of_flour = 1 && has_sauce = true
-    p "I cannot make pizza"
-  elsif cups_of_flour = 5 && has_sauce = false 
-    p "I cannot make pizza"
-  elsif cups_of_flour = 2 && has_sauce = true 
-    p "I can make pizza"
-  elsif cups_of_flour = 3 && has_sauce = true
-    p "I can make pizza"
-  else
-end 
+cups_of_flour = 3
+has_sauce = false
+
+if cups_of_flour >=2 && has_sauce == true
+  p "You can make Pizza!"
+else
+  p "Better make a run to the store!"
+end
+
+
+
+
+
+
+
+
+
+
+# cups_of_flour = 1
+# has_sauce = true
+
+# if cups_of_flour = 1 && has_sauce = true
+#     p "I cannot make pizza"
+#   elsif cups_of_flour = 5 && has_sauce = false 
+#     p "I cannot make pizza"
+#   elsif cups_of_flour = 2 && has_sauce = true 
+#     p "I can make pizza"
+#   elsif cups_of_flour = 3 && has_sauce = true
+#     p "I can make pizza"
+#   else
+# end 
 
